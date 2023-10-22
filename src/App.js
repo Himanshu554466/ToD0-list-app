@@ -1,8 +1,8 @@
 import { useState } from "react";
 import TodoForm from "./components/ToDoForm/ToDoForm";
 import TodoList from "./components/ToDoList/ToDoList";
-import { Provider } from "react";
-import store from "./redux/store"
+import { Provider } from "react-redux";
+import {store} from "./redux/store";
 
 import './App.css';
 
